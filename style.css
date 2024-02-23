@@ -4,13 +4,20 @@ div {
     width: 700px;
     height: auto;
     border-radius: 25px;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
     margin-top: 30px;
 }
 
-div.video{
+.info{
+   width: 600px;
+   height: auto;
+   background-color: white;
+   opacity: 60%;
+}
+
+div.video {
     box-shadow: 10;
     background-color: skyblue;
     width: 700px;
@@ -26,6 +33,16 @@ p {
     padding-left: 10%;
 }
 
+.first{
+    margin-top: 8%;
+}
+
+.biodata{
+    font-size: 40px;
+    margin-left: 190px;
+    margin-right: auto;
+}
+
 h1 {
     text-align: center;
     margin-top: 50px;
@@ -33,4 +50,12 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 50%;
 }
