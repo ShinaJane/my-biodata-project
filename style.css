@@ -1,18 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 div {
     box-shadow: 10;
     background-color: skyblue;
     width: 700px;
-    height: 1090px;
+    height: 880px;
     border-radius: 25px;
     padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 30px;
 }
 
 .info {
     width: 600px;
-    height: auto;
+    height: 400px;
     background-color: white;
     opacity: 60%;
 }
@@ -20,6 +25,8 @@ div {
 p {
     font-size: 18px;
     padding-left: 10%;
+    font-family: Arial;
+    color: black;
 }
 
 .first {
@@ -30,15 +37,19 @@ p {
     font-size: 40px;
     margin-left: 190px;
     margin-right: auto;
+    margin-top: 20px;
+    font-family: Arial;
 }
 
 h1 {
     text-align: center;
     margin-top: 50px;
+    font-family: Arial;
 }
 
 h2 {
     text-align: center;
+    font-family: Arial;
 }
 
 .img {
@@ -51,10 +62,11 @@ h2 {
 
 audio {
     margin-left: 395px;
-    margin-top: 5px;
+    margin-top: 15px;
     width: 700px;
 }
-video{
+
+video {
     margin-left: 395px;
     margin-top: 5px;
     margin-bottom: 40px;
