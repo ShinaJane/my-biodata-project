@@ -2,7 +2,7 @@ div {
     box-shadow: 10;
     background-color: skyblue;
     width: 700px;
-    height: auto;
+    height: 1090px;
     border-radius: 25px;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -10,22 +10,11 @@ div {
     margin-top: 30px;
 }
 
-.info{
-   width: 600px;
-   height: auto;
-   background-color: white;
-   opacity: 60%;
-}
-
-div.video {
-    box-shadow: 10;
-    background-color: skyblue;
-    width: 700px;
+.info {
+    width: 600px;
     height: auto;
-    border-radius: 25px;
-    padding: 20px;
-    margin-top: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    opacity: 60%;
 }
 
 p {
@@ -33,11 +22,11 @@ p {
     padding-left: 10%;
 }
 
-.first{
+.first {
     margin-top: 8%;
 }
 
-.biodata{
+.biodata {
     font-size: 40px;
     margin-left: 190px;
     margin-right: auto;
@@ -52,10 +41,21 @@ h2 {
     text-align: center;
 }
 
-.center {
+.img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     border-radius: 50%;
+}
+
+audio {
+    margin-left: 395px;
+    margin-top: 5px;
+    width: 700px;
+}
+video{
+    margin-left: 395px;
+    margin-top: 5px;
+    margin-bottom: 40px;
 }
